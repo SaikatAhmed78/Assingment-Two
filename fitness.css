@@ -655,7 +655,7 @@ input, select{
 
 .Contact{
    margin-top: 20px;
-}
+}}
 
 /* midea (small divice) style end */
 
@@ -805,8 +805,8 @@ input, select{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
 .Contact{
     line-height: 35px;
 }
- 
 }
