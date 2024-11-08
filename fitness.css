@@ -1,0 +1,816 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* difold style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+  font-family: "Inter", sans-serif;                                    
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  background-color: rgb(0, 0, 0);
+}
+.container{
+    max-width: 80%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+}
+
+
+
+
+/* shered style */
+
+.btn-primary{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+    margin-top: 15px;
+}
+.praiary-font{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    margin: 13px 0px;
+}
+.primary-discrption-1{
+    max-width: 520px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 44px;
+    align-items: center;
+}
+.primary-discrption-2{
+    max-width: 671px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 14px;
+    align-items: center;
+}
+
+/* navber  */
+.navbar-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    color: rgb(230, 83, 60);
+    cursor: pointer;
+}
+.option{
+    display: flex;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    gap: 0 47px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 18px;
+    padding: 9px 6px 8px 1px;
+}
+.option span{
+    background-color: #E6533C;
+    padding: 8px 24px;
+    border-radius: 40px;
+}
+i{
+    display: none;
+   
+}
+
+/* bannar section style  */
+.get-body{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.get-body-title{
+    max-width: 80%;
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 100%;
+    color: rgb(255, 255, 255);
+}
+.miema-font{
+    font-family: 'Miama', sans-serif;
+    font-size: 10rem;
+    font-weight: 400;
+    line-height: 50%;                                  
+}
+.btn-box{
+    margin-top: 20px;
+}
+.btn-download{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+    margin: 15px;
+}
+.get-body-box-2{
+    max-width: 349px;
+    max-height: 580px;
+}
+.card-one{
+    text-align: center;
+    max-width: 180px;
+    padding: 17px;
+    color: #fff;  
+    border-radius: 12px; 
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(201, 198, 198, 0.16);
+    background:rgba(48, 48, 48, 0.54);
+    position: relative;
+    left: 231px;
+    top: -430px;
+}
+.card-2{
+    text-align: center;
+    max-width: 180px;
+    padding: 17px 0px;
+    color: #fff;  
+    border-radius: 12px; 
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(201, 198, 198, 0.16);
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    left: -95px;
+    top: -291px;
+}
+.card-2 i{
+    color: #E6533C;
+}
+.card-1, .card-2 h4{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.card-1 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* Habits section */
+.Habits-section{
+    text-align: center;
+}
+.Habits-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 54px;
+}
+.card img{
+    border-radius: 50%;
+}
+.card-title{
+    margin: 12px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+   color:  rgb(255, 255, 255);
+}
+.card p{
+    width: 240px;
+}
+
+
+/* Run an Extra */
+.Run-an-Extra{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: rgb(34, 34, 34);
+    justify-content: space-between;
+
+}
+.Run-an-Extra-box h1{
+    max-width: 55%;
+}
+
+.Run-an-Extra-box p{
+    max-width: 70%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 14px;
+}
+.run-box-img, img{
+    max-width: 366px;
+    border-radius: 18px;
+    background: url(4);
+}
+ /* BMI Calculator section start */
+ .BMI{
+    max-width: 100%;
+ }
+.BMI-title{
+    max-width: 671px;
+    margin: 0 auto;
+    text-align: left;
+    
+ }
+ .BMI-calculator{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 100px;
+    padding: 20px 133px 24px 244px;
+ }
+ .BMI-calculator h4{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+ }
+
+table{
+    margin-top: 20px;
+}
+table,th, tr,td{
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    color: white;
+    padding: 1rem;
+
+ }
+ td{
+    color: rgba(255, 255, 255, 0.5);
+ }
+ .your-BMI p{
+   max-width: 570px;
+ }
+.bmi-input input, select{
+    padding: 12px 40px;
+    width: 44%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+input, select{
+   margin: 5px;
+}
+#activity-factor{
+    width: 90%;
+}
+
+.handshake p{
+    color: #777777;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.handshake h1{ 
+    color: #fff;
+    font-size: 3.5rem;
+    max-width: 842px;
+    margin: 0 auto;
+}
+.extra-card{
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+}
+.extra-card img{
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.extra-card .card{
+    max-width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.extra-card h4{
+    text-align: left;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.extra-card p{
+    text-align: left;
+    color: #777777;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+} 
+.extra-card a{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+.extra-card a:hover{
+    color: #E6533C;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 1px solid pink;
+    padding: 5px;
+    border-radius: 8px;
+}
+ /* Meet Our Team section styles */
+ .team-section{
+    text-align: center;
+
+ }
+ .images{
+    padding-top: 55px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+.our-container-section{
+    position: relative;
+    align-items: center;
+    text-align: left;
+}
+.titel-and-dis{
+    position: absolute;
+    bottom: 14%;
+    left: 17%;
+}
+ .our-container-section  h3{
+    color: #fff;
+    font-size: 2rem;
+ }
+ .our-container-section p{
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .our-container-section img{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+ }
+
+
+ /* Advanced Subscribe Section */
+.subscribe-advanced-section {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.subscribe-advanced-section:hover {
+    transform: scale(1.03);
+}
+
+.subscribe-advanced-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.subscribe-advanced-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: 0 auto 20px;
+    color: #f3e9e9;
+}
+
+.subscribe-advanced-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.subscribe-advanced-input input[type="email"] {
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    width: 320px;
+    font-size: 1rem;
+    color: #333;
+    transition: box-shadow 0.3s;
+}
+
+.subscribe-advanced-input input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.btn-advanced-subscribe {
+    padding: 15px 25px;
+    background: #fff;
+    color: #ff6b6b;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-advanced-subscribe:hover {
+    background: #ff6b6b;
+    color: #fff;
+}
+
+ 
+ /* footer styles */
+ .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .footer  h1{
+    font-size: 78px;
+    font-weight: 900;
+    color: #E6533C;
+    font-style: italic;
+ }
+ .Contact-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 152px;
+ }
+ .Contact h3{
+    color: #fff;
+    font-size: 2rem;
+
+ }
+ .Contact a{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+ }
+ .footer-titel p{
+    max-width: 440px;
+ }
+ .footer-hr{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.footer-hr hr{
+  opacity: 45%;
+}
+.footer-hr p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 30px 0;
+}
+
+/* medea  */
+@media screen and (max-width:576px) {
+    /* navbar responsive */
+    .navbar-section{
+        display: flex;
+        flex-direction: column;
+        flex-direction: row;
+        padding: 0px;
+    }
+    .option{
+        display: none;
+    }
+    .hambar{
+
+        color: #f5f0f0;
+    }
+    /* bannar resposive */
+    .get-body{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .get-body-title{
+        max-width: 285px;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 23%;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+        letter-spacing: 0%;
+    }
+    .miema-font{
+        font-family: 'Miama', sans-serif;
+        font-size: 90px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+    .get-body-discription{
+        width: 274px;
+        height: 96px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 28px;
+    }
+    .get-body-box .A{
+        margin: 0;
+    }
+   .btn-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .btn-primary, .btn-download{
+        width: 169px;
+        height: 54px;
+        padding: 0%;
+   }
+   .get-body-box-2 img{
+    width: 300px;
+    height: 450px;
+    margin-left: 70px;
+    }
+    .card-1{
+        position: relative;
+        left: 243px;
+        top: -420px;
+    
+    }
+    .card-2{
+        position: relative;
+        left: -39px;
+        top: -364px;
+    
+    }
+    .card-1, .card-2 h4{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+
+/* habits section style */
+    .Habits-section .title{
+        margin-top: -160px;
+    }
+    .Habits-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 35px;
+    }
+/* run and extra  */
+.Run-an-Extra{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+.Run-an-Extra-box .Join-btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.Run-an-Extra h1{
+    max-width: 100%;
+}
+.Join-btn .btn{
+   width: 75%;
+}
+.run-box-img, img{
+    margin-top: 20px;
+    max-width: 100%;
+}
+/* BMI Calculator */
+.BMI-calculator{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 30px;
+    margin-top: 30px;
+}
+.BMI-title{
+    padding: 0 20px;
+}
+.BMI-calculator h4{
+    margin-top: 20px;
+}
+ .input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 282px;
+    gap: 12px;
+}
+ /* Meet Our Team section Responsive */
+ .images{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+ }
+
+
+ 
+ /* footer responsive */
+ .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+ }
+ .Contact-box{
+    display: block;
+ }
+
+.Contact{
+   margin-top: 20px;
+}
+
+/* midea (small divice) style end */
+
+
+
+@media screen and (min-width:577px) and (max-width:992px){
+
+
+    .container{
+        max-width: 744px;
+        margin: 1rem auto;
+    }
+    /* header respondive style */
+    .header{
+       max-width: 100%;
+       margin: 2rem auto;
+        
+    }
+    .navbar-section{
+        display: flex;
+        margin: 0 auto;
+      }
+
+    i{
+        display: none;
+    }
+/* bannar resposive 
+*/
+    .get-body-box{
+        padding: 30px 0px 0px 0px;
+    }
+    .get-body-title{
+        width: 599.05px;
+        height: 282px;
+        font-size: 78px;
+        font-weight: 900;
+        line-height: 100%;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+        letter-spacing: 0%;
+    }
+   .primary-discrption-1{
+    margin: 0;
+   }
+.get-body{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.Habits-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 35px;
+}
+.get-body-box-2{
+    position: relative;
+    top: 18px;
+    left: 205px;
+    margin-bottom: 110px;
+}
+ /* Run an Extra Mile */
+
+ .Run-an-Extra{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    column-gap: 57px;
+ }
+ .Run-an-Extra-box h1{
+    max-width:100%;
+ }
+ .Run-an-Extra-box p{
+    max-width: 100%;
+ }
+ .praiary-font{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+ }
+ .run-box-img img{
+    width: 256px;
+    height: 319px;
+    left: 385px;
+    top: 40px;
+ }
+
+ /* Change Your Habits section responsive */
+ .Habits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+  /* BMI Calculator section responsiv */
+.BMI-title p{
+    width: 595px;
+    margin: 0;
+}
+.BMI-calculator{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 35px;
+}
+.your-BMI{
+    margin-top: 62px;
+}
+.your-BMI p{
+    margin: 0;
+}
+ /* Meet Our Team section start responsive */
+.team-meet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-container-section img{
+    width: 199px;
+    height: 272px;
+}
+.images{
+    padding: 0;
+}
+
+
+
+/* footer section responsive */
+
+.footer{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.footer h1{
+    margin-top: 100px;
+}
+#discrip{
+    margin: 0;
+    width: 443px;
+    margin-bottom: 100px;
+}
+.Contact-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Contact{
+    line-height: 35px;
+}
+ 
+}
